@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="counter.MainPage">
+
+    <StackLayout>
+        <Label>Contador</Label>
+
+        <Button class="b1" Clicked="Button_Clicked"  Text="+"></Button>
+        <Button Text="-" Clicked="Button_Clicked_1"></Button>
+        <Button Text="Reset" Clicked="ButtonReset"></Button>
+        <Label x:Name="res"></Label>
+    </StackLayout>
+
+</ContentPage>
